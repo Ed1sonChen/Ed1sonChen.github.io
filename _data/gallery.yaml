@@ -4,5 +4,29 @@ pictures:
     caption: Holiday at Tulum, Mexico
     year: 2024
 
+  - source: assets\memo\Maimi.jpg
+    caption: Holiday at Maimi, FL
+    year: 2023
+
+  - source: assets\memo\Maine.jpg
+    caption: Holiday at Acadia National Park
+    year: 2023  
+
+  - source: assets\memo\SF.jpg
+    caption: Holiday at San Francisco
+    year: 2023 
+
+  - source: assets\memo\RM.jpg
+    caption: Hala Madrid!
+    year: 2023  
+
+  - source: assets\memo\horseshoe bend.jpg
+    caption: Holiday at Utah
+    year: 2022
+
+  - source: assets\memo\keluoladuo.jpg
+    caption: Skiing at Colorado
+    year: 2021 
+
 
 introduction: Not all about research, but also some happy moments of my life.
