@@ -20,6 +20,10 @@ pictures:
     caption: Hala Madrid!
     year: 2023  
 
+  - source: assets\memo\NY.jpg
+    caption: Holiday at NewYork
+    year: 2022
+
   - source: assets\memo\horseshoe bend.jpg
     caption: Holiday at Utah
     year: 2022
