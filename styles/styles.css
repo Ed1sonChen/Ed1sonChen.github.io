@@ -293,15 +293,14 @@ div.gallery {
     border-radius: 8px;
     float: left;
     width: 212px;
-    height: 280px; /* 设置固定高度 */
-    overflow: hidden; /* 隐藏超出的部分 */
+
 }
 div.gallery:nth-child(8n+1) {
     clear: both;
 }
 div.gallery img {
     width: 100%;
-    height: auto;
+    height: 280px;
     object-fit: cover; /* 保持图片比例并裁剪超出的部分 */
     border-radius: 7px;
 }
