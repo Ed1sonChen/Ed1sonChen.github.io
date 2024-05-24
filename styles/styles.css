@@ -293,7 +293,7 @@ div.gallery {
     border-radius: 8px;
     float: left;
     width: 212px;
-    height: 300px; /* 设置固定高度 */
+    height: 280px; /* 设置固定高度 */
     overflow: hidden; /* 隐藏超出的部分 */
 }
 div.gallery:nth-child(8n+1) {
