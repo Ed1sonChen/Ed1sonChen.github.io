@@ -24,6 +24,18 @@ pictures:
     caption: NewYork
     year: 2022
 
+  - source: assets\memo\Arches national park.jpg
+    caption: Arches National Park, Utah
+    year: 2022
+
+  - source: assets\memo\antelope canyon.jpg
+    caption: Antelope Canyon, AZ
+    year: 2022
+
+  - source: assets\memo\grand canyon.jpg
+    caption: Grand Canyon, AZ
+    year: 2022
+
   - source: assets\memo\horseshoe bend.jpg
     caption: Horseshoe Bend, AZ
     year: 2022
