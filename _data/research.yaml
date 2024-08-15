@@ -1,10 +1,10 @@
 categories:
 
-  - data-filter: VLMs
-    category-name: VLMs
-
   - data-filter: HDC
     category-name: HDC
+
+  - data-filter: VLMs
+    category-name: VLMs
 
   - data-filter: RAG
     category-name: RAG
@@ -28,20 +28,19 @@ projects:
     tag: more_scene_perception
     category: HDC
 
-  # - title: Online 3D Deformable Object Classification for Mobile Cobot Manipulation
-  #   system-name: 
-  #   gif: assets/img/demo_online.gif
-  #   conference: ISR Europe 2023 (Stuttgart, Baden-Wurttemberg, Germany)
-  #   conference-web: https://www.isr-robotics.org/isr
-  #   status: 
-  #   authors: <u>Khang Nguyen</u>, Tuan Dang, Manfred Huber.
-  #   pdf: https://www.researchgate.net/profile/Khang-Nguyen-133/publication/374371098_Online_3D_Deformable_Object_Classification_for_Mobile_Cobot_Manipulation/links/651a2cfa1e2386049def3947/Online-3D-Deformable-Object-Classification-for-Mobile-Cobot-Manipulation.pdf
-  #   code: https://github.com/mkhangg/deformable_cobot
-  #   demo: https://youtu.be/qkgi3T6xYzI
-  #   slides: https://mkhangg.com/assets/slides/isr23_slides.pdf
-  #   talk: https://youtu.be/ATzyXtLAK6E
-  #   abstract-less: Vision-based object manipulation in assistive mobile cobots essentially relies on classifying the target objects based on their 3D shapes and features, whether they are deformed or not. In this work, we present an auto-generated dataset of deformed objects specific for assistive mobile cobot manipulation using an intuitive Laplacian-based mesh deformation procedure. We 
-  #   abstract-more: first determine the graspable region of the robot hand on the given object's mesh. Then, we uniformly sample handle points within the graspable region and perform deformation with multiple handle points based on the robot gripper configuration. In each deformation, we identify the orientation of handle points and prevent self-intersection to guarantee the object's physical meaning when multiple handle points are simultaneously applied to the mesh at different deformation intensities. We also introduce a lightweight neural network for 3D deformable object classification. Finally, we test our generated dataset on the Baxter robot with two 7-DOF arms, an integrated RGB-D camera, and a 3D deformable object classifier. The result shows that the robot is able to classify real-world deformed objects from point clouds captured at multiple views by the RGB-D camera.
-  #   tag: more_online
-  #   category: perception manipulation
+  - title: Vision Language Model for Interpretable and Fine-grained Detection of Safety Compliance in Diverse Workplaces
+    system-name: 
+    gif: assets/img/vlm_ppe.png
+    # Arxiv: ISR Europe 2023 (Stuttgart, Baden-Wurttemberg, Germany)
+    # Link: https://www.isr-robotics.org/isr
+    status: Under Review
+    authors: <u>Zhiling Chen</u>, Hanning Chen, Mohsen Imani, Ruimin Chen, Farhad Imani.
+    pdf: https://arxiv.org/pdf/2408.07146
+    # code: https://github.com/mkhangg/deformable_cobot
+    # demo: https://youtu.be/qkgi3T6xYzI
+    # slides: https://mkhangg.com/assets/slides/isr23_slides.pdf
+    # talk: https://youtu.be/ATzyXtLAK6E
+    abstract-less: Workplace accidents due to personal protective equipment (PPE) non-compliance raise serious safety concerns and lead to legal liabilities, financial penalties, and reputational damage. While object detection models have shown the capability to address this issue by identifying safety items, most existing models, such as YOLO, Faster R-CNN, and SSD, are limited in verifying the fine-grained attributes of PPE across diverse workplace scenarios. Vision language models (VLMs) are gaining traction for detection tasks by leveraging the synergy between visual and textual information, offering a promising solution to traditional object detection limitations in PPE recognition. Nonetheless, VLMs face challenges in consistently verifying PPE attributes due to the complexity and variability of workplace environments, requiring them to interpret context-specific language and visual cues simultaneously.
+    abstract-more: We introduce Clip2Safety, an interpretable detection framework for diverse workplace safety compliance, which comprises four main modules: scene recognition, the visual prompt, safety items detection, and fine-grained verification. The scene recognition identifies the current scenario to determine the necessary safety gear. The visual prompt formulates the specific visual prompts needed for the detection process. The safety items detection identifies whether the required safety gear is being worn according to the specified scenario. Lastly, the fine-grained verification assesses whether the worn safety equipment meets the fine-grained attribute requirements. We conduct real-world case studies across six different scenarios. The results show that Clip2Safety not only demonstrates an accuracy improvement over state-of-the-art question-answering based VLMs but also achieves inference times two hundred times faster.
+    category: VLMs
 
