@@ -16,5 +16,6 @@ resume: assets/doc/CV.pdf
 
 # about me
 first-paragraph: I am currently a first-year Mechanical Engineering PhD student at the <a href="https://me.engr.uconn.edu/" target="_blank" rel="noopener">University of Connecticut</a> and a research assistant at the <hightlight><a href="https://imani.lab.uconn.edu/" target="_blank" rel="noopener">Intelligent Systems and Control Laboratory (ISCL)</a></hightlight>, where I am advised by <a href="https://scholar.google.com/citations?user=XIdSChwAAAAJ&hl=en" target="_blank" rel="noopener">Dr. Farhad Imani</a> and <a href="https://scholar.google.com/citations?user=ScPyaK0AAAAJ&hl=en" target="_blank" rel="noopener">Dr. Ruimin Chen</a>. (◕▿◕)
-second-paragraph: I grew up in <a href="https://en.wikipedia.org/wiki/Wuxi" target="_blank" rel="noopener">Wuxi, China</a>
-research-interest: My research topics are Distributed Learning, Task specified AI and Spatial Intelligence.
+second-paragraph: I grew up in <a href="https://en.wikipedia.org/wiki/Wuxi" target="_blank" rel="noopener">Wuxi, China</a>.
+research-interest: I conduct research on Computer Vision, Robotics, and Machine Learning. Currently, my research mainly lies in Vision-Language Models for Safety and Privacy in Smart Manufacturing.
+third-paragraph: I am currently looking for research internship next summer (2025). Feel free to drop me an email if you are interested!
