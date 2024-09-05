@@ -320,8 +320,8 @@ div.desc {
     margin: 3px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
-    /* width: 211px; */
+    width: 211px;
+    /* width: 180px; */
     display: flex;
     flex-direction: column;
 }
