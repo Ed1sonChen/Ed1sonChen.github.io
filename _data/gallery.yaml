@@ -45,6 +45,9 @@ pictures:
   - source: assets\memo\antelope canyon.jpg
     caption: Antelope Canyon, AZ
     year: 2022
-
+    
+  - source: assets\memo\brandy1.jpg
+    caption: Brandy!
+    year: 2024 
 
 introduction: Not all about research, but also some happy moments of my life.
