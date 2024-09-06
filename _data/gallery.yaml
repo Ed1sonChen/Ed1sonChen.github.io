@@ -8,35 +8,33 @@ pictures:
     caption: Maimi, FL
     year: 2023
 
-  # - source: assets\memo\Maine.jpg
-  #   caption: Acadia National Park
-  #   year: 2023  
+  - source: assets\memo\Maine.jpg
+    caption: Acadia National Park
+    year: 2023  
 
   - source: assets\memo\SF.jpg
     caption: San Francisco
     year: 2022 
 
-  # - source: assets\memo\RM.jpg
-  #   caption: Hala Madrid!
-  #   year: 2022  
+  - source: assets\memo\RM.jpg
+    caption: Hala Madrid!
+    year: 2022  
 
   - source: assets\memo\NY.jpg
     caption: NewYork
     year: 2022
 
-  # - source: assets\memo\Arches national park.jpg
-  #   caption: Arches National Park, Utah
-  #   year: 2022
+  - source: assets\memo\Arches national park.jpg
+    caption: Arches National Park, Utah
+    year: 2022
 
-  
+  - source: assets\memo\grand canyon.jpg
+    caption: Grand Canyon, AZ
+    year: 2022
 
-  # - source: assets\memo\grand canyon.jpg
-  #   caption: Grand Canyon, AZ
-  #   year: 2022
-
-  # - source: assets\memo\horseshoe bend.jpg
-  #   caption: Horseshoe Bend, AZ
-  #   year: 2022
+  - source: assets\memo\horseshoe bend.jpg
+    caption: Horseshoe Bend, AZ
+    year: 2022
 
   - source: assets\memo\keluoladuo.jpg
     caption: Danver, CO
@@ -46,9 +44,9 @@ pictures:
     caption: Antelope Canyon
     year: 2022
     
-  # - source: assets\memo\brandy1.jpg
-  #   caption: Brandy!
-  #   year: 2024 
+  - source: assets\memo\brandy1.jpg
+    caption: Brandy!
+    year: 2024 
 
   - source: assets\memo\brandy2.jpg
     caption: Brandy!
