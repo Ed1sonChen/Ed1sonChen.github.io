@@ -1,5 +1,17 @@
 pictures:
   
+  - source: assets\memo\brandy1.jpg
+    caption: Brandy!
+    year: 2024 
+
+  - source: assets\memo\brandy2.jpg
+    caption: Brandy!
+    year: 2024 
+
+  - source: assets\memo\brandy3.jpg
+    caption: Brandy!
+    year: 2024 
+
   - source: assets\memo\tulum.jpg
     caption: Tulum, Mexico
     year: 2024
@@ -43,17 +55,5 @@ pictures:
   - source: assets\memo\keluoladuo.jpg
     caption: Danver, CO
     year: 2021 
-    
-  - source: assets\memo\brandy1.jpg
-    caption: Brandy!
-    year: 2024 
-
-  - source: assets\memo\brandy2.jpg
-    caption: Brandy!
-    year: 2024 
-
-  - source: assets\memo\brandy3.jpg
-    caption: Brandy!
-    year: 2024 
 
 introduction: Not all about research, but also some happy moments of my life.
