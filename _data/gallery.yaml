@@ -9,7 +9,7 @@ pictures:
     year: 2023
 
   - source: assets\memo\Maine.jpg
-    caption: Acadia National Park
+    caption: Acadia, ME
     year: 2023  
 
   - source: assets\memo\SF.jpg
@@ -25,7 +25,7 @@ pictures:
     year: 2022
 
   - source: assets\memo\Arches national park.jpg
-    caption: Arches National Park, Utah
+    caption: Arches National Park
     year: 2022
 
   - source: assets\memo\grand canyon.jpg
