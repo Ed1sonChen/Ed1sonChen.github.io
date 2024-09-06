@@ -300,7 +300,7 @@ div.gallery:nth-child(8n+1) {
 }
 div.gallery img {
     width: 100%;
-    height: auto;
+    height: 110%;
     /* object-fit: cover;  */
     border-radius: 7px;
 }
