@@ -24,9 +24,9 @@ pictures:
     caption: NewYork
     year: 2022
 
-  - source: assets\memo\Arches national park.jpg
-    caption: Arches National Park
-    year: 2022
+  # - source: assets\memo\Arches national park.jpg
+  #   caption: Arches National Park
+  #   year: 2022
 
   - source: assets\memo\grand canyon.jpg
     caption: Grand Canyon, AZ
