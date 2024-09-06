@@ -42,9 +42,9 @@ pictures:
     caption: Danver, CO
     year: 2021 
 
-  # - source: assets\memo\antelope canyon.jpg
-  #   caption: Antelope Canyon, AZ
-  #   year: 2022
+  - source: assets\memo\antelope canyon.jpg
+    caption: Antelope Canyon, AZ
+    year: 2022
     
   # - source: assets\memo\brandy1.jpg
   #   caption: Brandy!
