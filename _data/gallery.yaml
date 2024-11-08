@@ -1,5 +1,9 @@
 pictures:
   
+  - source: assets\brandy\brandy.mp4
+    caption: Brandy!
+    year: 2024 
+
   - source: assets\memo\brandy1.jpg
     caption: Brandy!
     year: 2024 
