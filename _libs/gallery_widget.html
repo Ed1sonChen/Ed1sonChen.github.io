@@ -4,12 +4,14 @@
 </div> -->
 <div class="gallery">
     {% if picture.source.endswith('.mp4') %}
-        <video src="{{ picture.source }}" width="800" height="600" controls>
-            Your browser does not support the video tag.
+        <video width="800" height="600" controls>
+            <source src="{{ picture.source }}" type="video/mp4">
+            <p>Your browser does not support the video tag. Please try another browser or download the video to view it.</p>
         </video>
     {% else %}
         <img src="{{ picture.source }}" alt="{{ picture.caption }}" width="800" height="600">
     {% endif %}
     <div class="desc">{{ picture.caption }} ({{ picture.year }})</div>
 </div>
+
 
