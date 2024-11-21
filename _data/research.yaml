@@ -32,7 +32,7 @@ projects:
     system-name: 
     gif: assets/img/vlm_ppe.png
     conference: Arxiv
-    conference-web: https://arxiv.org/pdf/2408.07146
+    conference-web: https://arxiv.org/abs/2408.07146
     status: Under Review
     authors: <u>Zhiling Chen</u>, Hanning Chen, Mohsen Imani, Ruimin Chen, Farhad Imani.
     pdf:
@@ -48,7 +48,7 @@ projects:
     system-name: 
     gif: assets/img/Fardin.png
     conference: Arxiv
-    conference-web: https://arxiv.org/pdf/2411.01140
+    conference-web: https://arxiv.org/abs/2411.01140
     status: Under Review
     authors: <u>Fardin Jalil Piran</u>, Zhiling Chen, Mohsen Imani, Farhad Imani.
     pdf:
