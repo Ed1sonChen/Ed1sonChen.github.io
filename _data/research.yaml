@@ -28,7 +28,7 @@ projects:
     #talk: 
     abstract-less: The integration of diverse sensors in manufacturing processes offers enhanced potential for real-time quality assurance through the collection of complementary data. However, the limited interpretability of current machine learning models often hampers the effective discrimination of each sensor's unique contributions,
     abstract-more: primarily due to the complexity of decoding the interdependencies among various signals. This paper proposes a novel computational framework, Distributed Hyperdimensional Computing (DHDC), which is designed to leverage efficient cognitive operations, such as binding and bundling, for interpretable learning across multi-level sensor data. DHDC operates by encoding and aggregating data systematically across a distributed architecture, thereby enhancing transparency in computational efficiency. Our real-world experimental results on the 5-axis machining for the fabrication of the counterbore hole feature demonstrate that the framework not only effectively characterizes the impact of individual sensors but also achieves a high degree of predictive accuracy, as evidenced by an F1 score of 90.4%. The proposed framework holds the potential for interpretable and scalable quality control in distributed additive and subtractive manufacturing.
-    tag: more_scene_perception
+    tag: DHDC
     category: HDC
 
   - title: Vision Language Model for Interpretable and Fine-grained Detection of Safety Compliance in Diverse Workplaces
@@ -45,7 +45,7 @@ projects:
     #talk: 
     abstract-less: Workplace accidents due to personal protective equipment (PPE) non-compliance raise serious safety concerns and lead to legal liabilities, financial penalties, and reputational damage. While object detection models have shown the capability to address this issue by identifying safety items, most existing models,
     abstract-more: such as YOLO, Faster R-CNN, and SSD, are limited in verifying the fine-grained attributes of PPE across diverse workplace scenarios. Vision language models (VLMs) are gaining traction for detection tasks by leveraging the synergy between visual and textual information, offering a promising solution to traditional object detection limitations in PPE recognition. Nonetheless, VLMs face challenges in consistently verifying PPE attributes due to the complexity and variability of workplace environments, requiring them to interpret context-specific language and visual cues simultaneously. We introduce Clip2Safety, an interpretable detection framework for diverse workplace safety compliance, which comprises four main modules:scene recognition, the visual prompt, safety items detection, and fine-grained verification. The scene recognition identifies the current scenario to determine the necessary safety gear. 
-    tag: more_scene_perception
+    tag: Clip2Safety
     category: VLMs
 
   - title: Privacy-preserving Federated Learning with Differentially Private Hyperdimensional Computing
@@ -62,6 +62,6 @@ projects:
     #talk: 
     abstract-less: Federated Learning (FL) is essential for efficient data exchange in Internet of Things (IoT) environments, as it trains Machine Learning (ML) models locally and shares only model updates. However, FL is vulnerable to privacy threats like model inversion and membership inference attacks, which can expose sensitive training data. 
     abstract-more: To address these privacy concerns, Differential Privacy (DP) mechanisms are often applied. Yet, adding DP noise to black-box ML models degrades performance, especially in dynamic IoT systems where continuous, lifelong FL learning accumulates excessive noise over time. To mitigate this issue, we introduce Federated HyperDimensional computing with Privacy-preserving (FedHDPrivacy), an eXplainable Artificial Intelligence (XAI) framework that combines the neuro-symbolic paradigm with DP. FedHDPrivacy carefully manages the balance between privacy and performance by theoretically tracking cumulative noise from previous rounds and adding only the necessary incremental noise to meet privacy requirements. 
-     tag: more_scene_perception
+     tag: Fardin
     category: HDC
 
