@@ -34,9 +34,9 @@ projects:
   - title: Vision Language Model for Interpretable and Fine-grained Detection of Safety Compliance in Diverse Workplaces
     system-name: 
     gif: assets/img/vlm_ppe.png
-    conference: Arxiv
-    conference-web: https://arxiv.org/abs/2408.07146
-    status: Under Review
+    conference: Expert Systems with Applications
+    conference-web: https://www.sciencedirect.com/science/article/abs/pii/S0957417424026368
+    # status: Under Review
     authors: <u>Zhiling Chen</u>, Hanning Chen, Mohsen Imani, Ruimin Chen, Farhad Imani.
     pdf:
     # code: https://github.com/mkhangg/deformable_cobot
