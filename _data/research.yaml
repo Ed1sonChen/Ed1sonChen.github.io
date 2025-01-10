@@ -19,7 +19,7 @@ projects:
     gif: assets\img\Distributed.png
     conference: IMECE 2024 (Porland, OR)
     conference-web: https://event.asme.org/IMECE
-    status: Under Review
+    # status: Under Review
     authors: <u>Zhiling Chen</u>, Danny Hoang, Ruimin Chen, Farhad Imani.
     pdf: 
     # code: https://github.com/mkhangg/semantic_scene_perception

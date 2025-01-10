@@ -4,9 +4,9 @@ pictures:
     caption: Brandy!
     year: 2024 
 
-  - source: assets\memo\brandy2.jpg
-    caption: Brandy!
-    year: 2024 
+  # - source: assets\memo\brandy2.jpg
+  #   caption: Brandy!
+  #   year: 2024 
 
   - source: assets\memo\brandy3.jpg
     caption: Brandy!
