@@ -6,11 +6,8 @@ categories:
   - data-filter: VLMs
     category-name: VLMs
 
-  - data-filter: RAG
-    category-name: RAG
-
-  - data-filter: AD
-    category-name: Anomaly Detection
+  - data-filter: MLLM
+    category-name: MLLM
 
 projects:
 
