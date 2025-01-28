@@ -6,8 +6,11 @@ categories:
   - data-filter: VLMs
     category-name: VLMs
 
-  - data-filter: MLLM
-    category-name: MLLM
+  - data-filter: RAG
+    category-name: RAG
+
+  - data-filter: AD
+    category-name: Anomaly Detection
 
 projects:
 
@@ -61,21 +64,4 @@ projects:
     abstract-more: To address these privacy concerns, Differential Privacy (DP) mechanisms are often applied. Yet, adding DP noise to black-box ML models degrades performance, especially in dynamic IoT systems where continuous, lifelong FL learning accumulates excessive noise over time. To mitigate this issue, we introduce Federated HyperDimensional computing with Privacy-preserving (FedHDPrivacy), an eXplainable Artificial Intelligence (XAI) framework that combines the neuro-symbolic paradigm with DP. FedHDPrivacy carefully manages the balance between privacy and performance by theoretically tracking cumulative noise from previous rounds and adding only the necessary incremental noise to meet privacy requirements. In a real-world case study involving in-process monitoring of manufacturing machining operations, FedHDPrivacy demonstrates robust performance, outperforming standard FL frameworks—including Federated Averaging (FedAvg)
     tag: Fardin
     category: HDC
-
-    - title: Can Multimodal Large Language Models be Guided to Improve Industrial Anomaly Detection?
-    system-name: 
-    gif: assets/img/MLLMAD.png
-    conference: Arxiv
-    conference-web: https://arxiv.org/abs/2501.15795
-    status: Under Review
-    authors: <u>Zhiling Chen</u>, Hanning Chen, Mohsen Imani, Farhad Imani.
-    pdf:
-    # code: https://github.com/mkhangg/deformable_cobot
-    # demo: https://youtu.be/qkgi3T6xYzI
-    slides: 
-    talk: 
-    abstract-less: In industrial settings, the accurate detection of anomalies is essential for maintaining product quality and ensuring operational safety. Traditional industrial anomaly detection (IAD) models often struggle with flexibility and adaptability, especially in dynamic production environments where new defect types and operational changes frequently arise. Recent advancements in Multimodal Large Language Models (MLLMs) hold promise for overcoming these limitations by combining visual and textual information processing capabilities. MLLMs excel in general visual understanding due to their training on large, diverse datasets, but they lack domain-specific knowledge, such as industry-specific defect tolerance levels, which limits their effectiveness in IAD tasks.
-    abstract-more: To address these challenges, we propose Echo, a novel multi-expert framework designed to enhance MLLM performance for IAD. Echo integrates four expert modules:Reference Extractor which provides a contextual baseline by retrieving similar normal images, Knowledge Guide which supplies domain-specific insights, Reasoning Expert which enables structured, stepwise reasoning for complex queries, and Decision Maker which synthesizes information from all modules to deliver precise, context-aware responses. Evaluated on the MMAD benchmark, Echo demonstrates significant improvements in adaptability, precision, and robustness, moving closer to meeting the demands of real-world industrial anomaly detection.
-    tag: MLLMAD
-    category: AD
 
