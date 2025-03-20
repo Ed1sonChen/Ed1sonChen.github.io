@@ -79,3 +79,20 @@ projects:
     abstract-more: MLLMs excel in general visual understanding due to their training on large, diverse datasets, but they lack domain-specific knowledge, such as industry-specific defect tolerance levels, which limits their effectiveness in IAD tasks. To address these challenges, we propose Echo, a novel multi-expert framework designed to enhance MLLM performance for IAD. Echo integrates four expert modules:Reference Extractor which provides a contextual baseline by retrieving similar normal images, Knowledge Guide which supplies domain-specific insights, Reasoning Expert which enables structured, stepwise reasoning for complex queries, and Decision Maker which synthesizes information from all modules to deliver precise, context-aware responses. Evaluated on the MMAD benchmark, Echo demonstrates significant improvements in adaptability, precision, and robustness, moving closer to meeting the demands of real-world industrial anomaly detection.
     tag: AD
     category: MLLM
+
+  - title: Federated Hyperdimensional Computing for hierarchical and distributed quality monitoring in smart manufacturing
+    system-name: 
+    gif: assets/img/FL_journal.png
+    conference: Internet of Things
+    conference-web: https://www.sciencedirect.com/science/article/pii/S2542660525000812
+    # status: Under Review
+    authors: <u>Zhiling Chen</u>, Danny Hoang, Fardin Jalil Piran, Ruimin Chen, Farhad Imani.
+    pdf:
+    # code: https://github.com/Ed1sonChen/Echo
+    # demo: https://youtu.be/qkgi3T6xYzI
+    slides: 
+    talk: 
+    abstract-less: In emerging smart manufacturing, the integration of Internet of Things (IoT) and edge devices is essential for in-situ sensing, communication, and adaptive learning. Federated Learning (FL) leverages edge-cloud collaboration to preserve data privacy and minimize communication over-head compared to centralized models. However, conventional FL approaches face significant challenges in manufacturing： (1) non-Independent and Identically Distributed (non-IID) data and diverse feature distributions complicate local model training within hierarchical, complex industrial data structures; (2) directly overwriting local models with a global model during updates causes clients to lose critical task-specific information unique to environments; and (3) transmitting model updates causes massive communication overhead, limiting scalability. We propose Federated Distributed Hyperdimensional Computing (𝖥𝖾𝖽𝖣𝖧𝖣),
+    abstract-more: an FL framework that employs Hyperdimensional Computing (HDC) to optimize communication for hierarchical manufacturing data. Unlike neural networks, HDC offers robust performance with lower computational demands and inherent resilience to noisy, non-IID data, enabling 𝖥𝖾𝖽𝖣𝖧𝖣 to naturally handle data heterogeneity and reduce computational burdens on edge devices. 𝖥𝖾𝖽𝖣𝖧𝖣 integrates a hierarchical graph-based learning model with a node pruning module to alleviate computational load and implements a novel client-cloud update strategy leveraging HDC’s high-dimensional representations to streamline synchronization, thereby minimizing communication costs and im- proving scalability. We validate 𝖥𝖾𝖽𝖣𝖧𝖣 through a case study on hybrid manufacturing using a Sinumerik edge device, focusing on the geometric quality assessment of two counterbore diameters. 𝖥𝖾𝖽𝖣𝖧𝖣 achieved an F1-score of 95.3% and demonstrated performance improvements of up to 12.6% over state-of-the-art neural network-based FL methods, highlighting its superior efficiency and scalability in complex industrial settings.
+    tag: FedHD
+    category: HDC
