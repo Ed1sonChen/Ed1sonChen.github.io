@@ -49,9 +49,9 @@ projects:
   - title: Privacy-preserving Federated Learning with Differentially Private Hyperdimensional Computing
     system-name: 
     gif: assets/img/Fardin.png
-    conference: Arxiv
-    conference-web: https://arxiv.org/abs/2411.01140
-    status: Under Review
+    conference: Computers and Electrical Engineering
+    conference-web: https://www.sciencedirect.com/science/article/abs/pii/S0045790625002046
+    # status: Under Review
     authors: <u>Fardin Jalil Piran</u>, Zhiling Chen, Mohsen Imani, Farhad Imani.
     pdf:
     # code: https://github.com/mkhangg/deformable_cobot
