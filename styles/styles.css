@@ -335,6 +335,7 @@ div.desc {
     color: grey;
     padding: 0rem 1rem 0.6rem 1rem;
     font-size: 12px;
+    margin-top: auto;
 }
 .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
     position: absolute;
