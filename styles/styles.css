@@ -319,7 +319,7 @@ div.desc {
     border-radius: 7px;
     margin: 3px;
     border: 1px solid #ccc;
-    /* float: left; */
+    float: left;
     width: 180px;
 
     /* width: 180, 211px; */
