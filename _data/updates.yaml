@@ -1,11 +1,20 @@
 updates:
 
+  - picture: assets/img/updates_gan/farm_boy.jpg
+    desc: Our paper has been accpeted by Journal of Internet of Things!
+    time: March 2025
+
+  - picture: assets/img/updates_gan/boy_robot.jpg
+    desc: Our paper has been accpeted by Journal of Expert Systems with Aoolications!
+    time: November 2024
+
   - picture: assets/img/updates_gan/city_boy.jpg
     desc: Passed my qualifying exam! Thank you to <a href="https://scholar.google.com/citations?user=XIdSChwAAAAJ&hl=en" target="_blank" rel="noopener">Dr. Farhad Imani</a>, <a href="https://scholar.google.com/citations?user=xYcU3M8AAAAJ&hl=en" target="_blank" rel="noopener">Dr. Jiong Tang</a>, <a href="https://scholar.google.com.hk/citations?user=3OlOXn4AAAAJ&hl=zh-TW" target="_blank" rel="noopener">Dr. Suining He</a>, <a href="https://scholar.google.com/citations?user=E6omBUEAAAAJ&hl=en" target="_blank" rel="noopener">Dr. Hu Chao</a>, <a href="https://scholar.google.com/citations?user=ScPyaK0AAAAJ&hl=en" target="_blank" rel="noopener">Dr. Ruimin Chen</a>, and <a href="https://scholar.google.com/citations?user=bZ77b64AAAAJ&hl=en" target="_blank" rel="noopener">Dr. Chang Liu</a> for your support and guidance!<br><hightlight>Storrs, CT</hightlight>. 
     time: August 2024
 
-  - picture: assets/img/updates_gan/boy_system.jpg
+  - picture: assets/img/updates_gan/boy_systems.jpg
     desc: Our paper has been accpeted by IMECE!
     time: July 2024
+
   
  
