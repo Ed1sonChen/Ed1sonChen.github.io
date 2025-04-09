@@ -313,7 +313,7 @@ div.desc {
 /* Styles for update cards */
 .news-card {
     background-color: none;
-    width: 180px;
+    width: 100%;
     height: 380px;
     /* height: 291px; */
     border-radius: 7px;
