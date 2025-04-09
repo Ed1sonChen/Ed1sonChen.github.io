@@ -312,7 +312,7 @@ div.desc {
 .news-card {
     background-color: none;
     width: 100%;
-    height: 291px;
+    height: 390px;
     /* height: 365px; */
     border-radius: 7px;
     margin: 3px;
@@ -327,7 +327,6 @@ div.desc {
     flex-grow: 1;
     padding: 0.4rem 1rem 0rem 1rem;
     font-size: 13px;
-    text-align: justify;
 }
 .news-time {
     color: grey;
