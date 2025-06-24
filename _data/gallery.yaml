@@ -16,9 +16,9 @@ pictures:
     caption: Tulum, Mexico
     year: 2024
 
-  - source: assets\memo\Maimi.jpg
-    caption: Maimi, FL
-    year: 2023
+  # - source: assets\memo\Maimi.jpg
+  #   caption: Maimi, FL
+  #   year: 2023
 
   - source: assets\memo\Maine.jpg
     caption: Acadia, ME
