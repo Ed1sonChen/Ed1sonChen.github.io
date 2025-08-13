@@ -23,9 +23,8 @@ projects:
     # status: Under Review
     authors: <u>Zhiling Chen</u>, Yang Zhang, Fardin Jalil Piran, Qianyu Zhou, Jiong Tang, Farhad Imani.
     pdf:
-    project page: https://ed1sonchen.github.io/ScanBot/
     code: https://github.com/Ed1sonChen/Scan-Bot
-    # demo: https://youtu.be/qkgi3T6xYzI
+    demo: https://ed1sonchen.github.io/ScanBot/
     slides: 
     talk: 
     abstract-less: We introduce ScanBot, a novel dataset designed for instruction-conditioned, highprecision surface scanning in robotic systems. In contrast to existing robot learning datasets that focus on coarse tasks such as grasping, navigation, or dialogue, ScanBot targets the high-precision demands of industrial laser scanning, where submillimeter path continuity and parameter stability are critical. 
