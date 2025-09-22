@@ -134,3 +134,20 @@ projects:
     abstract-more: lifelong FL learning accumulates excessive noise over time. To mitigate this issue, we introduce Federated HyperDimensional computing with Privacy-preserving (FedHDPrivacy), an eXplainable Artificial Intelligence (XAI) framework that combines the neuro-symbolic paradigm with DP. FedHDPrivacy carefully manages the balance between privacy and performance by theoretically tracking cumulative noise from previous rounds and adding only the necessary incremental noise to meet privacy requirements. In a real-world case study involving in-process monitoring of manufacturing machining operations, FedHDPrivacy demonstrates robust performance, outperforming standard FL frameworks—including Federated Averaging (FedAvg)
     tag: Fardin
     category: HDC
+
+  - title: Privacy-Preserving Decentralized Federated Learning via Explainable Adaptive Differential Privacy
+    system-name: 
+    gif: assets/img/Fardin2.png
+    conference: Arxiv
+    conference-web: https://arxiv.org/pdf/2509.10691
+    # status: Under Review
+    authors: <u>Fardin Jalil Piran</u>, Zhiling Chen, Yang Zhang, Qianyu Zhou, Jiong Tang, Farhad Imani.
+    pdf:
+    # code: https://github.com/mkhangg/deformable_cobot
+    # demo: https://youtu.be/qkgi3T6xYzI
+    slides: 
+    talk: 
+    abstract-less: Decentralized federated learning faces privacy risks because model updates can leak data through inference attacks and membership inference, a concern that grows over many client exchanges. Differential privacy offers principled protection by injecting calibrated noise so confidential information remains secure on resource-limited IoT devices. Yet without transparency, black-box training cannot track noise already injected by previous clients and rounds, which forces worst-case additions and harms accuracy. 
+    abstract-more: We propose PrivateDFL, an explainable framework that joins hyperdimensional computing with differential privacy and keeps an auditable account of cumulative noise so each client adds only the difference between the required noise and what has already been accumulated. We evaluate on MNIST, ISOLET, and UCI-HAR to span image, signal, and tabular modalities, and we benchmark against transformer-based and deep learning-based baselines trained centrally with Differentially Private Stochastic Gradient Descent (DP-SGD) and Rényi Differential Privacy (RDP). PrivateDFL delivers higher accuracy, lower latency, and lower energy across IID and non-IID partitions while preserving formal (𝜖, 𝛿) guarantees and operating without a central server. For example, under non-IID partitions, PrivateDFL achieves 24.42% higher accuracy than the Vision Transformer on MNIST while using about 10× less training time, 76× lower inference latency, and 11× less energy, and on ISOLET it exceeds Transformer accuracy by more than 80% with roughly 10× less training time, 40× lower inference latency, and 36× less training energy. Future work will extend the explainable accounting to adversarial clients and adaptive topologies with heterogeneous privacy budgets.
+    tag: Fardin2
+    category: HDC
