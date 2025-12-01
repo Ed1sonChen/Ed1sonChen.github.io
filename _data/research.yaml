@@ -15,6 +15,23 @@ categories:
 
 projects:
 
+  - title: A Multi-Expert Framework for Enhancing Multimodal Large Language Models in Industrial Anomaly Detection
+    system-name: 
+    gif: assets/img/MoXpert.png
+    conference: Pattern Recognition
+    conference-web: https://www.sciencedirect.com/science/article/pii/S0031320325014153
+    # status: Under Review
+    authors: <u>Zhiling Chen</u>, Farhad Imani.
+    pdf:
+    code: https://github.com/Ed1sonChen/MoXpert
+    # demo: https://youtu.be/qkgi3T6xYzI
+    slides: 
+    talk: 
+    abstract-less: Industrial anomaly detection (IAD) systems must spot subtle defects with only a handful of reference images while production lines, lighting, and materials change daily, a setting where conventional CNN-based or hand-tuned one-class models quickly break down. Multimodal Large Language Models (MLLMs) offer the potential to overcome these limitations by effectively combining visual and textual data processing capabilities. However, they often lack essential domain-specific knowledge, such as industry-specific defect tolerances and reasoning steps, limiting their effectiveness in targeted IAD tasks. We introduce MoXpert, a multi-expert framework designed specifically to enhance MLLM performance for IADs.
+    abstract-more: MoXpert leverages a gated Mixture-of Experts structure to dynamically select and integrate expert module outputs tailored to the specific queries and characteristics of inspected objects. It consists of four interconnected expert modules: Reference Extractor, providing a contextual baseline through retrieval of similar normal images; Knowledge Guide, offering detailed, domain specific insights; Reasoning Expert, facilitating structured and logical reasoning for complex queries; and Decision Maker, synthesizing inputs from all modules to deliver accurate and contextually aware responses. Evaluations conducted on the comprehensive MMAD benchmark demonstrate that MoXpert significantly enhances adaptability, precision, and robustness, effectively meeting the practical demands of real-world industrial anomaly detection.
+    tag: MoXpert
+    category: MLLM
+
   - title: "ScanBot: Towards Intelligent Surface Scanning in Embodied Robotic Systems"
     system-name: 
     gif: assets/img/ScanBot.png
