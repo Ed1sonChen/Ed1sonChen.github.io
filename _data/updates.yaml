@@ -1,6 +1,6 @@
 updates:
 
-  - picture: assets/img/updates_gan/happy_rebot.jpg
+  - picture: assets/img/updates_gan/happy_robot.jpg
     desc: Our journal paper "A Multi-Expert Framework for Enhancing Multimodal Large Language Models in Industrial Anomaly Detection" has been accpeted by Pattern Recognition!
     time: November 2025
 
